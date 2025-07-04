@@ -1,0 +1,42 @@
+{
+    "name": "ethers-wallet-adapter",
+    "description": "A standardized interface for seamless DApp wallet connectivity across EVM chains.",
+    "version": "0.0.1",
+    "type": "module",
+    "main": "dist/main.js",
+    "module": "lib/main.js",
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DamonCote/ethers-wallet-adapter.git"
+    },
+    "keywords": [
+        "ethers",
+        "web3",
+        "blockchain",
+        "wallet",
+        "adapter"
+    ],
+    "dependencies": {
+        "ethers": "^6.14.0",
+        "@metamask/detect-provider": "^2.0.0",
+        "events": "^3.3.0"
+    },
+    "devDependencies": {
+        "rollup": "^3.0.0",
+        "@rollup/plugin-node-resolve": "^16.0.1",
+        "@rollup/plugin-commonjs": "^28.0.3",
+        "@rollup/plugin-json": "^6.1.0"
+    },
+    "engines": {
+        "node": ">=20.0.0"
+    },
+    "author": "Damon Cote <damoncote7@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DamonCote/ethers-wallet-adapter/issues"
+    },
+    "homepage": "https://github.com/DamonCote/ethers-wallet-adapter#readme"
+}

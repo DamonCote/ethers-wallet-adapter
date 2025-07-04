@@ -1,2 +1,3 @@
-# ethers-wallet-selector
-This is a wallet selector library enabling Ethereum/Binance dApp interaction through supported wallet integrations.
+# Ethers Wallet Adapter
+
+A standardized interface for seamless DApp wallet connectivity across EVM chains.
