@@ -8,20 +8,13 @@ A standardized interface for seamless DApp wallet connectivity across EVM chains
 
 ## Documentation
 
--   [Installation](#installation)
--   [Quick Start](#quick-start)
--   [Configuration](#configuration)
-    -   [Network Configuration](#network-configuration)
-    -   [Wallet Address Validation](#wallet-address-validation)
-    -   [Reconnect Callback](#reconnection-confirmation-callback)
-    -   [Auto Connect](#automatic-connection-on-initialization)
-    -   [Manual Connect](#manual-wallet-connection)
--   [Events](#events)
--   [Contract Interactions](#contract-interactions)
-    -   [Call (Read)](#reading-contract-data-call)
-    -   [Send (Write)](#send-transaction-send)
--   [Supported Wallet Providers](#supported-wallet-providers)
--   [Contributions](#support-me)
+- [Ethers Wallet Adapter](#ethers-wallet-adapter)
+  - [Features](#features)
+  - [Documentation](#documentation)
+  - [Installation](#installation)
+  - [Quick Start](#quick-start)
+  - [Support me](#support-me)
+  - [License](#license)
 
 ## Installation
 
